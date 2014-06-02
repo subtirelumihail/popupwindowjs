@@ -19,7 +19,7 @@ PopupWindow.prototype.open = function(url, size){
   this.sizeWindow = size;
 
   var opt = this.setOpt(); 
-  var win=window.open(url, '_blank', opt);
+  var win=window.open(url, 'blankness', opt);
   win.focus();
   return false;
 };
