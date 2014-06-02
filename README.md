@@ -2,7 +2,7 @@ A super minimal browser popup window library.
 ======================
 
 How to use:
-==
+
 _popupWindow.open(url, size);
 
 (var) url:  the url you want to open
